@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../project_2.srcs/sources_1/imports/8051_code" \
+"top_top_sch_tb_func_synth.v" \
+"../../../../../project_2.srcs/sim_1/imports/8051_logic/toptest.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,126 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Mar 12 15:23:04 2020
+| Host         : ecelw445-03 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    48 |
+|    Minimum number of control sets                        |    48 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   147 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    48 |
+| >= 0 to < 4        |    17 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |    22 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             275 |          148 |
+| No           | Yes                   | No                     |               4 |            1 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             254 |          128 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+------------------------------------------------------------------+------------------------+------------------+----------------+
+|   Clock Signal   |                           Enable Signal                          |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++------------------+------------------------------------------------------------------+------------------------+------------------+----------------+
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[0]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[7]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[5]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[3]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[6]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[6]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[3]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[2]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[7]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[2]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[4]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[4]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[0]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p0[1]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[5]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p1[1]_i_1_n_0              | resetin_IBUF           |                1 |              1 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_rxd_ff0                  | resetin_IBUF           |                1 |              1 |
+|  clkin_IBUF_BUFG |                                                                  | clk/counter[3]_i_1_n_0 |                1 |              4 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_recv_state[3]_i_1_n_0    | resetin_IBUF           |                2 |              4 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/p_1_out                    | resetin_IBUF           |                1 |              5 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/scon_reg[0][6]_1[0]        | resetin_IBUF           |                3 |              6 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/E[0]                       | resetin_IBUF           |                4 |              6 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/tcon_reg[0][6]_2[0]        | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/dpl[7]_i_1_n_0             | resetin_IBUF           |                1 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r1_b1[7]_i_1_n_0         | resetin_IBUF           |                4 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_help[7]_i_1_n_0          | resetin_IBUF           |                6 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r1_b3[7]_i_1_n_0         | resetin_IBUF           |                4 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r0_b2[7]_i_1_n_0         | resetin_IBUF           |                4 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r0_b0[7]_i_1_n_0         | resetin_IBUF           |                2 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r1_b2[7]_i_1_n_0         | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r0_b3[7]_i_1_n_0         | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r0_b1[7]_i_1_n_0         | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_r1_b0[7]_i_1_n_0         | resetin_IBUF           |                2 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/dph[7]_i_1_n_0             | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/sp[7]_i_1_n_0              | resetin_IBUF           |                8 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/ssel[7]_i_1_n_0            | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/tmod[0][7]_i_1_n_0         | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/tsel[7]_i_1_n_0            | resetin_IBUF           |                8 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_wt_reg[0][0]_0[0]        | resetin_IBUF           |                5 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/tcon_reg[0][6]_1[0]        | resetin_IBUF           |                5 |              8 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_recv_sh[7]_i_1_n_0       | resetin_IBUF           |                3 |              8 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_counth1[7]_i_1_n_0 | resetin_IBUF           |                5 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/all_trans_o[0]_i_1_n_0     | resetin_IBUF           |                1 |              8 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_recv_buf[7]_i_1_n_0      | resetin_IBUF           |                4 |              8 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_wt[0]_16                 | resetin_IBUF           |                3 |             10 |
+|  clk_div_BUFG    | MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_tran_state[3]_i_1_n_0    | resetin_IBUF           |                5 |             14 |
+|  clk_div_BUFG    | MC8051/i_mc8051_control/i_control_mem/s_help16[15]_i_1_n_0       | resetin_IBUF           |               10 |             16 |
+|  clk_div_BUFG    |                                                                  | resetin_IBUF           |              148 |            275 |
++------------------+------------------------------------------------------------------+------------------------+------------------+----------------+
+
+

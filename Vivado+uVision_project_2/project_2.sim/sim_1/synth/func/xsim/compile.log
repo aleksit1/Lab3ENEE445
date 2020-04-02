@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/_umd/_2018-09-01/445_F18/_work/0925_Vivado+uVision_project_2/project_2.sim/sim_1/synth/func/xsim/top_top_sch_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BRAM4kx8
+INFO: [VRFC 10-311] analyzing module LUT_RAM_from_template
+INFO: [VRFC 10-311] analyzing module alucore
+INFO: [VRFC 10-311] analyzing module comb_divider
+INFO: [VRFC 10-311] analyzing module comb_mltplr
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-311] analyzing module control_mem
+INFO: [VRFC 10-311] analyzing module mc8051_alu
+INFO: [VRFC 10-311] analyzing module mc8051_control
+INFO: [VRFC 10-311] analyzing module mc8051_core
+INFO: [VRFC 10-311] analyzing module mc8051_siu
+INFO: [VRFC 10-311] analyzing module mc8051_tmrctr
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module wiz_clkgen
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/_umd/_2018-09-01/445_F18/_work/0925_Vivado+uVision_project_2/project_2.srcs/sim_1/imports/8051_logic/toptest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_top_sch_tb

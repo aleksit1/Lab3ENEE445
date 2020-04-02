@@ -1,0 +1,195 @@
+C51 COMPILER V9.60.0.0   REG51F                                                            03/12/2020 15:26:33 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE REG51F
+OBJECT MODULE PLACED IN REG51F.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE REG51F.H ROM(SMALL) OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND CODE TAB
+                    -S(2)
+
+line level    source
+
+   1          /*--------------------------------------------------------------------------
+   2          REG51F.H
+   3          
+   4          Header file for 80C51FA, 80C51FB, 80C51FC.
+   5          Copyright (c) 1988-2002 Keil Elektronik GmbH and Keil Software, Inc.
+   6          All rights reserved.
+   7          --------------------------------------------------------------------------*/
+   8          
+   9          #ifndef __REG51F_H__
+  10          #define __REG51F_H__
+  11          
+  12          /*  BYTE Registers  */
+  13          sfr P0   = 0x80;
+  14          sfr P1   = 0x90;
+  15          sfr P2   = 0xA0;
+  16          sfr P3   = 0xB0;
+  17          sfr PSW  = 0xD0;
+  18          sfr ACC  = 0xE0;
+  19          sfr B    = 0xF0;
+  20          sfr SP   = 0x81;
+  21          sfr DPL  = 0x82;
+  22          sfr DPH  = 0x83;
+  23          sfr PCON = 0x87;
+  24          sfr TCON = 0x88;
+  25          sfr TMOD = 0x89;
+  26          sfr TL0  = 0x8A;
+  27          sfr TL1  = 0x8B;
+  28          sfr TH0  = 0x8C;
+  29          sfr TH1  = 0x8D;
+  30          sfr IE   = 0xA8;
+  31          sfr IP   = 0xB8;
+  32          sfr IPH  = 0xB7;    /* 80C51FC only */
+  33          sfr SCON = 0x98;
+  34          sfr SBUF = 0x99;
+  35          
+  36          /*  80C51FA Extensions  */
+  37          sfr SADDR  = 0xA9;
+  38          sfr SADEN  = 0xB9;
+  39          sfr T2CON  = 0xC8;
+  40          sfr T2MOD  = 0xC9;
+  41          sfr RCAP2L = 0xCA;
+  42          sfr RCAP2H = 0xCB;
+  43          sfr TL2    = 0xCC;
+  44          sfr TH2    = 0xCD;
+  45          sfr CCON   = 0xD8;
+  46          sfr CMOD   = 0xD9;
+  47          sfr CCAPM0 = 0xDA;
+  48          sfr CCAPM1 = 0xDB;
+  49          sfr CCAPM2 = 0xDC;
+  50          sfr CCAPM3 = 0xDD;
+  51          sfr CCAPM4 = 0xDE;
+  52          sfr CL     = 0xE9;
+  53          sfr CCAP0L = 0xEA;
+  54          sfr CCAP1L = 0xEB;
+C51 COMPILER V9.60.0.0   REG51F                                                            03/12/2020 15:26:33 PAGE 2   
+
+  55          sfr CCAP2L = 0xEC;
+  56          sfr CCAP3L = 0xED;
+  57          sfr CCAP4L = 0xEE;
+  58          sfr CH     = 0xF9;
+  59          sfr CCAP0H = 0xFA;
+  60          sfr CCAP1H = 0xFB;
+  61          sfr CCAP2H = 0xFC;
+  62          sfr CCAP3H = 0xFD;
+  63          sfr CCAP4H = 0xFE;
+  64          
+  65          
+  66          /*  BIT Registers  */
+  67          /*  PSW   */
+  68          sbit CY   = 0xD7;
+  69          sbit AC   = 0xD6;
+  70          sbit F0   = 0xD5;
+  71          sbit RS1  = 0xD4;
+  72          sbit RS0  = 0xD3;
+  73          sbit OV   = 0xD2;
+  74          sbit P    = 0xD0;
+  75          
+  76          /*  TCON  */
+  77          sbit TF1  = 0x8F;
+  78          sbit TR1  = 0x8E;
+  79          sbit TF0  = 0x8D;
+  80          sbit TR0  = 0x8C;
+  81          sbit IE1  = 0x8B;
+  82          sbit IT1  = 0x8A;
+  83          sbit IE0  = 0x89;
+  84          sbit IT0  = 0x88;
+  85          
+  86          /*  IE   */
+  87          sbit EA   = 0xAF;
+  88          sbit ES   = 0xAC;
+  89          sbit ET1  = 0xAB;
+  90          sbit EX1  = 0xAA;
+  91          sbit ET0  = 0xA9;
+  92          sbit EX0  = 0xA8;
+  93          
+  94          /*  IP   */ 
+  95          sbit PS   = 0xBC;
+  96          sbit PT1  = 0xBB;
+  97          sbit PX1  = 0xBA;
+  98          sbit PT0  = 0xB9;
+  99          sbit PX0  = 0xB8;
+ 100          
+ 101          /*  P3  */
+ 102          sbit RD   = 0xB7;
+ 103          sbit WR   = 0xB6;
+ 104          sbit T1   = 0xB5;
+ 105          sbit T0   = 0xB4;
+ 106          sbit INT1 = 0xB3;
+ 107          sbit INT0 = 0xB2;
+ 108          sbit TXD  = 0xB1;
+ 109          sbit RXD  = 0xB0;
+ 110          
+ 111          /*  SCON  */
+ 112          sbit SM0  = 0x9F;
+ 113          sbit SM1  = 0x9E;
+ 114          sbit SM2  = 0x9D;
+ 115          sbit REN  = 0x9C;
+ 116          sbit TB8  = 0x9B;
+C51 COMPILER V9.60.0.0   REG51F                                                            03/12/2020 15:26:33 PAGE 3   
+
+ 117          sbit RB8  = 0x9A;
+ 118          sbit TI   = 0x99;
+ 119          sbit RI   = 0x98;
+ 120          
+ 121          /*  80C51FA Extensions  */
+ 122          /*  SCON  */
+ 123          sbit FE    = 0x9F;
+ 124          
+ 125          /*  IE  */
+ 126          sbit EC    = 0xAE;
+ 127          sbit ET2   = 0xAD;
+ 128          
+ 129          /*  IP  */
+ 130          sbit PPC   = 0xBE;
+ 131          sbit PT2   = 0xBD;
+ 132                       
+ 133          /*  P1  */
+ 134          sbit CEX4 = 0x97;
+ 135          sbit CEX3 = 0x96;
+ 136          sbit CEX2 = 0x95;
+ 137          sbit CEX1 = 0x94;
+ 138          sbit CEX0 = 0x93;
+ 139          sbit ECI  = 0x92;
+ 140          sbit T2EX = 0x91;
+ 141          sbit T2   = 0x90;
+ 142          
+ 143          /*  T2CON  */
+ 144          sbit TF2   = 0xCF;
+ 145          sbit EXF2  = 0xCE;
+ 146          sbit RCLK  = 0xCD;
+ 147          sbit TCLK  = 0xCC;
+ 148          sbit EXEN2 = 0xCB;
+ 149          sbit TR2   = 0xCA;
+ 150          sbit C_T2  = 0xC9;
+ 151          sbit CP_RL2= 0xC8;
+ 152          
+ 153          /*  CCON  */
+ 154          sbit CF    = 0xDF;
+ 155          sbit CR    = 0xDE;
+ 156          sbit CCF4  = 0xDC;
+ 157          sbit CCF3  = 0xDB;
+ 158          sbit CCF2  = 0xDA;
+ 159          sbit CCF1  = 0xD9;
+ 160          sbit CCF0  = 0xD8;
+ 161          
+ 162          #endif
+C51 COMPILER V9.60.0.0   REG51F                                                            03/12/2020 15:26:33 PAGE 4   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   ----    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

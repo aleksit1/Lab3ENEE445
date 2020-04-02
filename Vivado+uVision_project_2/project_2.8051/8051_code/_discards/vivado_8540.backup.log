@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Sep 22 08:34:43 2018
+# Process ID: 8540
+# Current directory: C:/_umd/_2018-09-01/445_F18/_work/0921_project_2zip01/project_2/project_2.8051
+# Command line: vivado.exe -mode tcl {C:\Xilinx\Vivado\2018.2\scripts\updatemem\main.tcl} -notrace -tclargs -meminfo 4Kx8_X1_Y6_bram.mmi -data atrawhex.mem -proc dummy -bit {..\project_2.runs\impl_1\top.bit} -out newtop.bit -force -debug
+# Log file: C:/_umd/_2018-09-01/445_F18/_work/0921_project_2zip01/project_2/project_2.8051/vivado.log
+# Journal file: C:/_umd/_2018-09-01/445_F18/_work/0921_project_2zip01/project_2/project_2.8051\vivado.jou
+#-----------------------------------------------------------
+open_project {{C:\Xilinx\Vivado\2018.2\scripts\updatemem\main.tcl}}
+ERROR: [Coretcl 2-155] Invalid project file name '{C:\Xilinx\Vivado\2018.2\scripts\updatemem\main.tcl}'. File must have a valid Vivado project extension (.xpr/.ppr).
+Vivado% 

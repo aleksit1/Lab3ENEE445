@@ -1,0 +1,525 @@
+*******************************************************************************
+*
+*                      IMPORT XISE SUMMARY REPORT
+*
+*                       (import_ise_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ON THE DATA THAT
+*  WAS PARSED FROM THE ISE PROJECT AND IMPORTED INTO THE CURRENT PROJECT.
+*
+*
+* The report is divided into following three sections:-
+*
+* Section (1) - ISE PROJECT INFORMATION
+*
+*  This section provides the details of the ISE project that was imported
+*
+* Section (2) - EXCEPTIONS
+*
+*  This section summarizes the ISE project data that was either not imported or
+*  not mapped into the current project
+*
+* Section (3) - MAPPED DATA
+*
+*  This section summarizes the Vivado project information that was imported
+*  from the ISE project data
+*
+*******************************************************************************
+
+Section (1) - ISE PROJECT INFORMATION
+-------------------------------------
+
+The following items describes the information about the ISE project that was imported:-
+
+Project Name    = my8051
+Project File    = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/my8051.xise
+Project Version = 14.7
+Device Family   = Spartan3E
+Part Name       = xc3s500e-5-fg320*
+
+*This part is not supported in Vivado and is replaced with the default part in the new project.
+ Please see Section (3.1) - "Target Device" below for more details.
+
+
+Section (2) - EXCEPTIONS
+------------------------
+
+The following sub-sections describes the list of items that were NOT mapped from the
+XISE file contents into the current project:-
+
+Section (2.1) - Missing Sources
+-------------------------------
+None
+
+
+Section (2.2) - Unknown Sources
+-------------------------------
+None
+
+
+Section (2.3) - IP Import Issues
+--------------------------------
+None
+
+
+Section (2.4) - Unknown Properties
+----------------------------------
+
+The following ISE properties were not mapped into the current project:-
+
+
+<ISE Property Name>                                   <ISE Property Value>
+"Allow SelectMAP Pins to Persist"                     'false'
+"Analysis Effort Level"                               'Standard'
+"Asynchronous To Synchronous"                         'false'
+"Automatically Insert glbl Module in the Netlist"     'true'
+"Automatically Run Generate Target PROM/ACE File"     'false'
+"BRAM Utilization Ratio"                              '100'
+"Bring Out Global Set/Reset Net as a Port"            'false'
+"Bring Out Global Tristate Net as a Port"             'false'
+"Bus Delimiter"                                       '<>'
+"CLB Pack Factor Percentage"                          '100'
+"Case"                                                'Maintain'
+"Case Implementation Style"                           'None'
+"Change Device Speed To"                              '-5'
+"Change Device Speed To Post Trace"                   '-5'
+"Configuration Clk (Configuration Pins)"              'Pull Up'
+"Configuration Name"                                  'Default'
+"Configuration Pin Done"                              'Pull Up'
+"Configuration Pin M0"                                'Pull Up'
+"Configuration Pin M1"                                'Pull Up'
+"Configuration Pin M2"                                'Pull Up'
+"Configuration Pin Program"                           'Pull Up'
+"Configuration Rate"                                  'Default (1)'
+"Correlate Output to Input Design"                    'false'
+"Create Binary Configuration File"                    'false'
+"Create IEEE 1532 Configuration File"                 'false'
+"Create ReadBack Data Files"                          'false'
+"Cross Clock Analysis"                                'false'
+"Custom Waveform Configuration File Par"              'UCF-BRAMprobe01.wcfg'
+"Custom Waveform Configuration File Translate"        'UCF-BRAMprobe01.wcfg'
+"DCI Update Mode"                                     'As Required'
+"DSP Utilization Ratio"                               '100'
+"Data Flow window"                                    'false'
+"Decoder Extraction"                                  'true'
+"Delay Values To Be Read from SDF ModelSim"           'Setup Time'
+"Device Speed Grade/Select ABS Minimum"               '-5'
+"Disable Detailed Package Model Insertion"            'false'
+"Do Not Escape Signal and Instance Names in Netlist"  'false'
+"Done (Output Events)"                                'Default (4)'
+"Drive Done Pin High"                                 'false'
+"Enable BitStream Compression"                        'false'
+"Enable Cyclic Redundancy Checking (CRC)"             'true'
+"Enable Debugging of Serial Mode BitStream"           'false'
+"Enable Internal Done Pipe"                           'true'
+"Enable Message Filtering"                            'false'
+"Enable Outputs (Output Events)"                      'Default (5)'
+"Evaluation Development Board"                        'None Specified'
+"Extra Effort"                                        'None'
+"FPGA Start-Up Clock"                                 'JTAG Clock'
+"FSM Style"                                           'LUT'
+"Flatten Output Netlist"                              'false'
+"Functional Model Target Language ArchWiz"            'Verilog'
+"Functional Model Target Language Coregen"            'Verilog'
+"Functional Model Target Language Schematic"          'Verilog'
+"Generate Asynchronous Delay Report"                  'false'
+"Generate Clock Region Report"                        'false'
+"Generate Constraints Interaction Report"             'false'
+"Generate Constraints Interaction Report Post Trace"  'false'
+"Generate Datasheet Section"                          'true'
+"Generate Detailed MAP Report"                        'false'
+"Generate Multiple Hierarchical Netlist Files"        'false'
+"Generate Post-Place & Route Power Report"            'false'
+"Generate Post-Place & Route Simulation Model"        'false'
+"Generate RTL Schematic"                              'Yes'
+"Generate Testbench File"                             'false'
+"Generate Timegroups Section"                         'false'
+"Generate Timegroups Section Post Trace"              'false'
+"Generate Verbose Library Compilation Messages"       'true'
+"Global Optimization Goal"                            'AllClockNets'
+"Global Set/Reset Port Name"                          'GSR_PORT'
+"Global Tristate Port Name"                           'GTS_PORT'
+"Hierarchy Separator"                                 '/'
+"Ignore Pre-Compiled Library Warning Check"           'false'
+"Ignore User Timing Constraints Map"                  'false'
+"Ignore Version Check"                                'false'
+"Include 'uselib Directive in Verilog File"           'false'
+"Include SIMPRIM Models in Verilog File"              'false'
+"Include UNISIM Models in Verilog File"               'false'
+"Include sdf_annotate task in Verilog File"           'true'
+"Insert Buffers to Prevent Pulse Swallowing"          'true'
+"JTAG Pin TCK"                                        'Pull Up'
+"JTAG Pin TDI"                                        'Pull Up'
+"JTAG Pin TDO"                                        'Pull Up'
+"JTAG Pin TMS"                                        'Pull Up'
+"Keep Hierarchy"                                      'No'
+"Last Selected UCF File"                              ''
+"Last Unlock Status"                                  'false'
+"Library for Verilog Sources"                         ''
+"List window"                                         'false'
+"Log All Signals In Behavioral Simulation"            'false'
+"Log All Signals In Post-Map Simulation"              'false'
+"Log All Signals In Post-Par Simulation"              'false'
+"Log All Signals In Post-Translate Simulation"        'false'
+"Logical Shifter Extraction"                          'true'
+"Map Effort Level"                                    'High'
+"Max Fanout"                                          '100000'
+"Maximum Number of Lines in Report"                   '1000'
+"Maximum Signal Name Length"                          '20'
+"ModelSim Post-Map UUT Instance Name"                 'UUT'
+"ModelSim Post-Par UUT Instance Name"                 'UUT'
+"Move First Flip-Flop Stage"                          'true'
+"Move Last Flip-Flop Stage"                           'true'
+"Multiplier Style"                                    'Auto'
+"Mux Extraction"                                      'Yes'
+"Mux Style"                                           'Auto'
+"Netlist Translation Type"                            'Timestamp'
+"Number of Paths in Error/Verbose Report"             '3'
+"Optimize Instantiated Primitives"                    'false'
+"Other VCOM Command Line Options"                     ''
+"Other VLOG Command Line Options"                     ''
+"Other VSIM Command Line Options"                     ''
+"Other XPWR Command Line Options"                     ''
+"Output Extended Identifiers"                         'false'
+"Output File Name"                                    'top'
+"Overwrite Existing Symbol"                           'false'
+"Perform Advanced Analysis"                           'false'
+"Perform Advanced Analysis Post Trace"                'false'
+"Place And Route Mode"                                'Normal Place and Route'
+"Port to be used"                                     'Auto - default'
+"Post Map Simulation Model Name"                      'top_map.v'
+"Post Place & Route Simulation Model Name"            'top_timesim.v'
+"Post Synthesis Simulation Model Name"                'top_synthesis.v'
+"Post Translate Simulation Model Name"                'top_translate.v'
+"Priority Encoder Extraction"                         'Yes'
+"Process window"                                      'false'
+"Produce Verbose Report"                              'false'
+"RAM Extraction"                                      'true'
+"ROM Extraction"                                      'true'
+"ROM Style"                                           'Auto'
+"Read Cores"                                          'true'
+"Regenerate Core"                                     'Under Current Project Setting'
+"Register Duplication Xst"                            'true'
+"Release Write Enable (Output Events)"                'Default (6)'
+"Rename Design Instance in Testbench File to"         'UUT'
+"Rename Top Level Architecture To"                    'Structure'
+"Rename Top Level Entity to"                          ''
+"Report Paths by Endpoint"                            '3'
+"Report Paths by Endpoint Post Trace"                 '3'
+"Report Type"                                         'Verbose Report'
+"Report Type Post Trace"                              'Verbose Report'
+"Reset DCM if SHUTDOWN & AGHIGH performed"            'false'
+"Reset On Configuration Pulse Width"                  '100'
+"Revision Select"                                     '00'
+"Revision Select Tristate"                            'Disable'
+"Safe Implementation"                                 'No'
+"Security"                                            'Enable Readback and Reconfiguration'
+"Shift Register Extraction"                           'true'
+"Show All Models"                                     'false'
+"Signal window"                                       'true'
+"Simulation Resolution"                               'Default (1 ps)'
+"Simulation Run Time Modelsim"                        '1000ns'
+"Slice Packing"                                       'true'
+"Slice Utilization Ratio"                             '100'
+"Source window"                                       'false'
+"Specify Top Level Instance Names"                    ''
+"Structure window"                                    'true'
+"Target UCF File Name"                                'config.ucf'
+"Top-Level Module Name in Output Netlist"             ''
+"Tristate On Configuration Pulse Width"               '0'
+"Unused IOB Pins"                                     'Pull Down'
+"Use Automatic Do File"                               'true'
+"Use Clock Enable"                                    'Yes'
+"Use Configuration Name"                              'false'
+"Use Custom Do File Behavioral"                       'false'
+"Use Custom Do File Map"                              'false'
+"Use Custom Do File Par"                              'false'
+"Use Custom Do File Translate"                        'false'
+"Use Explicit Declarations Only"                      'true'
+"Use Smart Guide"                                     'false'
+"Use Synchronous Reset"                               'Yes'
+"Use Synchronous Set"                                 'Yes'
+"Use Synthesis Constraints File"                      'true'
+"UserID Code (8 Digit Hexadecimal)"                   '0xFFFFFFFF'
+"VHDL Source Analysis Standard"                       'VHDL-93'
+"VHDL Syntax"                                         '93'
+"Variables window"                                    'false'
+"Verilog 2001 Xst"                                    'true'
+"Wait for DLL Lock (Output Events)"                   'Default (NoWait)'
+"Wave window"                                         'true'
+"Write Timing Constraints"                            'false'
+"XOR Collapsing"                                      'true'
+
+
+Section (3) - MAPPED DATA
+-------------------------
+
+The following sub-sections describes the list of items that were imported from the
+ISE properties and sources and mapped into the current project:-
+
+Section (3.1) - Target Device
+-----------------------------
+
+Default Part = xc7k70tfbv676-1
+Family       = kintex7
+Package      = fbv676
+Speed Grade  = -1
+
+
+Section (3.2) - Filesets
+------------------------
+
+<sources_1>
+FILESET_TYPE   = DesignSrcs
+TOP            = top
+DESIGN_MODE    = RTL
+VERILOG_DIR    = 
+VERILOG_DEFINE = 
+VHDL_GENERICS  = 
+
+File(s):-
+NAME      = mc8051_top_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_top_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_p.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_p.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_ovcy_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_ovcy_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_cy_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_cy_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = dcml_adjust_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/dcml_adjust_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = control_mem_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/control_mem_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = control_fsm_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/control_fsm_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = comb_mltplr_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/comb_mltplr_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = comb_divider_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/comb_divider_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = alumux_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/alumux_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = alucore_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/alucore_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_ovcy_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_ovcy_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_cy_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_cy_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_core_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_core_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_tmrctr_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_tmrctr_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_siu_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_siu_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_control_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_control_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_alu_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_alu_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = dcml_adjust_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/dcml_adjust_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = control_mem_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/control_mem_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = control_fsm_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/control_fsm_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = comb_mltplr_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/comb_mltplr_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = comb_divider_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/comb_divider_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = alumux_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/alumux_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = alucore_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/alucore_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = addsub_core_struc.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/addsub_core_struc.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_tmrctr_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_tmrctr_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_siu_rtl.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_siu_rtl.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_core_.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_core_.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_control_struc.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_control_struc.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_alu_struc.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_alu_struc.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = wiz_clkgen.v
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/wiz_clkgen.v
+FILE_TYPE = Verilog
+LIBRARY   = xil_defaultlib
+
+NAME      = ROM4Kx8.v
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/ROM4Kx8.v
+FILE_TYPE = Verilog
+LIBRARY   = xil_defaultlib
+
+NAME      = mc8051_core_struc.vhd
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/mc8051_core_struc.vhd
+FILE_TYPE = VHDL
+LIBRARY   = xil_defaultlib
+
+NAME      = LUT_RAM_from_template02.v
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/LUT_RAM_from_template02.v
+FILE_TYPE = Verilog
+LIBRARY   = xil_defaultlib
+
+NAME      = top_nosch_01.v
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/top_nosch_01.v
+FILE_TYPE = Verilog
+LIBRARY   = xil_defaultlib
+
+NAME      = LGPL.TXT
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/LGPL.TXT
+FILE_TYPE = Text
+LIBRARY   = xil_defaultlib
+
+
+<constrs_1>
+FILESET_TYPE   = Constrs
+
+Note: During the import operation, any constraint file(s) that are found in the ISE project will be added to the current Vivado project.
+      However, please note that none of these files will be automatically marked as a "Target Constraint File". To set a constraint file
+      as target, select the file in the GUI "Sources" window, right-click on this file and then select "Set Target UCF". Alternatively,
+      the target constraint file can be set using the "set_property target_constrs_file <filename> <fileset>" Tcl command.
+
+File(s):-
+NAME      = Nexys2_8051cylon.ucf
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/Nexys2_8051cylon.ucf
+FILE_TYPE = Unknown
+
+
+<sim_1>
+FILESET_TYPE   = SimulationSrcs
+
+File(s):-
+NAME      = toptest.v
+FILE PATH = C:/_umd/_2018-09-01/445_F18/_work/0919_updatemem_devp/2018-09-12_8051Cylon_3count_01/8051_logic/toptest.v
+FILE_TYPE = Verilog
+LIBRARY   = xil_defaultlib
+
+
+Section (3.3) - Design Runs(s)
+------------------------------
+
+<synth_1>
+FLOW      = Vivado Synthesis 2018
+PART      = xc7k70tfbv676-1
+SRCSET    = sources_1
+CONSTRSET = constrs_1
+STRATEGY  = Vivado Synthesis Defaults
+
+Options:-
+
+Note: The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+
+
+
+<impl_1>
+FLOW      = Vivado Implementation 2018
+PART      = xc7k70tfbv676-1
+SRCSET    = sources_1
+CONSTRSET = constrs_1
+STRATEGY  = Vivado Implementation Defaults
+
+Options:-
+
+Note: The current run uses Vivado Strategies; hence no ISE run options will be mapped to this run during the import operation.
+
+
+
+<sim_1>
+TOP  = top_top_sch_tb
+SOURCE_SET  = sources_1
+
+Options:-
+        

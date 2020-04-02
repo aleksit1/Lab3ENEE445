@@ -1,0 +1,882 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 12 15:20:02 2020
+# Process ID: 13084
+# Current directory: C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.runs/synth_1/top.vds
+# Journal file: C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35ticpg236-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7656 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 834.613 ; gain = 233.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/top_nosch_01.v:26]
+INFO: [Synth 8-6157] synthesizing module 'ClkDivider' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/new/ClkDivider.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDivider' (1#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/new/ClkDivider.v:23]
+INFO: [Synth 8-638] synthesizing module 'mc8051_core' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:67]
+INFO: [Synth 8-3491] module 'mc8051_control' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_control_.vhd:74' bound to instance 'i_mc8051_control' of component 'mc8051_control' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'mc8051_control' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_control_struc.vhd:66]
+INFO: [Synth 8-3491] module 'control_fsm' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_fsm_.vhd:74' bound to instance 'i_control_fsm' of component 'control_fsm' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_control_struc.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'control_fsm' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_fsm_rtl.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'control_fsm' (2#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_fsm_rtl.vhd:66]
+INFO: [Synth 8-3491] module 'control_mem' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_.vhd:75' bound to instance 'i_control_mem' of component 'control_mem' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_control_struc.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'control_mem' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:68]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:646]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:757]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:765]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:1070]
+INFO: [Synth 8-256] done synthesizing module 'control_mem' (3#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'mc8051_control' (4#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_control_struc.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'mc8051_alu' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_.vhd:75' bound to instance 'i_mc8051_alu' of component 'mc8051_alu' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'mc8051_alu' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:67]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'alumux' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alumux_.vhd:74' bound to instance 'i_alumux' of component 'alumux' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'alumux' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alumux_rtl.vhd:65]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'alumux' (5#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alumux_rtl.vhd:65]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'alucore' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alucore_.vhd:73' bound to instance 'i_alucore' of component 'alucore' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'alucore' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alucore_rtl.vhd:65]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'alucore' (6#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/alucore_rtl.vhd:65]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'addsub_core' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_core_.vhd:76' bound to instance 'i_addsub_core' of component 'addsub_core' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'addsub_core' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_core_struc.vhd:67]
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter DWIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'addsub_cy' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_cy_.vhd:72' bound to instance 'i_addsub_cy' of component 'addsub_cy' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_core_struc.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'addsub_cy' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_cy_rtl.vhd:66]
+	Parameter DWIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addsub_cy' (7#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_cy_rtl.vhd:66]
+	Parameter DWIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'addsub_ovcy' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_ovcy_.vhd:72' bound to instance 'i_addsub_ovcy' of component 'addsub_ovcy' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_core_struc.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'addsub_ovcy' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_ovcy_rtl.vhd:66]
+	Parameter DWIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addsub_ovcy' (8#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_ovcy_rtl.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'addsub_core' (9#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_core_struc.vhd:67]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'comb_mltplr' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_mltplr_.vhd:72' bound to instance 'i_comb_mltplr' of component 'comb_mltplr' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'comb_mltplr' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_mltplr_rtl.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comb_mltplr' (10#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_mltplr_rtl.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'comb_divider' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_divider_.vhd:72' bound to instance 'i_comb_divider' of component 'comb_divider' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'comb_divider' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_divider_rtl.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comb_divider' (11#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/comb_divider_rtl.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'dcml_adjust' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/dcml_adjust_.vhd:72' bound to instance 'i_dcml_adjust' of component 'dcml_adjust' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'dcml_adjust' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/dcml_adjust_rtl.vhd:66]
+	Parameter DWIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dcml_adjust' (12#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/dcml_adjust_rtl.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'mc8051_alu' (13#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd:67]
+INFO: [Synth 8-3491] module 'mc8051_siu' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_.vhd:71' bound to instance 'i_mc8051_siu' of component 'mc8051_siu' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'mc8051_siu' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:65]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:422]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:830]
+WARNING: [Synth 8-6014] Unused sequential element v_txstep_reg was removed.  [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:420]
+WARNING: [Synth 8-6014] Unused sequential element v_rxstep_reg was removed.  [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:829]
+INFO: [Synth 8-256] done synthesizing module 'mc8051_siu' (14#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd:65]
+INFO: [Synth 8-3491] module 'mc8051_tmrctr' declared at 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_.vhd:71' bound to instance 'i_mc8051_tmrctr' of component 'mc8051_tmrctr' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:198]
+INFO: [Synth 8-638] synthesizing module 'mc8051_tmrctr' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_rtl.vhd:65]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_rtl.vhd:248]
+INFO: [Synth 8-226] default block is never used [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_rtl.vhd:528]
+INFO: [Synth 8-256] done synthesizing module 'mc8051_tmrctr' (15#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_rtl.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'mc8051_core' (16#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:466]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (17#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:466]
+INFO: [Synth 8-6157] synthesizing module 'LUT_RAM_from_template' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/LUT_RAM_from_template02.v:21]
+INFO: [Synth 8-5534] Detected attribute (* RAM_STYLE = "{AUTO | DISTRIBUTED | PIPE_DISTRIBUTED}" *) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/LUT_RAM_from_template02.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'LUT_RAM_from_template' (18#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/LUT_RAM_from_template02.v:21]
+INFO: [Synth 8-6157] synthesizing module 'BRAM4kx8' [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/ROM4Kx8.v:7]
+	Parameter RAM_WIDTH bound to: 8 - type: integer 
+	Parameter RAM_ADDR_BITS bound to: 12 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* RAM_STYLE = "BLOCK" *) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/ROM4Kx8.v:17]
+INFO: [Synth 8-3876] $readmem data file 'BLINKY.mem' is read successfully [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/ROM4Kx8.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM4kx8' (19#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/ROM4Kx8.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'top' (20#1) [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/top_nosch_01.v:26]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[5]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[4]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[3]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[2]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[1]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[0]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[7]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[5]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[7]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 938.152 ; gain = 337.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 938.152 ; gain = 337.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 938.152 ; gain = 337.293
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 938.152 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/imports/8051_logic/project_2/8051_P0_P1_only.xdc]
+Finished Parsing XDC File [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/imports/8051_logic/project_2/8051_P0_P1_only.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/imports/8051_logic/project_2/8051_P0_P1_only.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/new/8051_P0_P1_2.xdc]
+Finished Parsing XDC File [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/new/8051_P0_P1_2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/constrs_1/new/8051_P0_P1_2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1046.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  AND2 => LUT2: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1046.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.031 ; gain = 445.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticpg236-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.031 ; gain = 445.172
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1046.031 ; gain = 445.172
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "s_wrx_mux" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd:230]
+INFO: [Synth 8-5546] ROM "all_wt_en_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "all_trans_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "psw" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "psw" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tcon[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "scon[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "acc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "acc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dpl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dph" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pcon" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmod[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tsel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ssel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ie" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "alu_cmd_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "addsub_o" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sources_1/imports/8051_logic/addsub_cy_rtl.vhd:81]
+INFO: [Synth 8-7031] Trying to map ROM "BRAM4kx8" into Block RAM due to explicit "ram_style" or "rom_style" specification
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1046.031 ; gain = 445.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 6     
+	   3 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 4     
+	   3 Input      4 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 58    
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 52    
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 2     
+	  10 Input     16 Bit        Muxes := 2     
+	   8 Input     16 Bit        Muxes := 2     
+	  11 Input     11 Bit        Muxes := 1     
+	  10 Input     11 Bit        Muxes := 1     
+	   9 Input     11 Bit        Muxes := 1     
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 130   
+	   7 Input      8 Bit        Muxes := 29    
+	  12 Input      8 Bit        Muxes := 15    
+	  30 Input      8 Bit        Muxes := 2     
+	  23 Input      8 Bit        Muxes := 2     
+	   9 Input      8 Bit        Muxes := 4     
+	   8 Input      8 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	  24 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 7     
+	  19 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 7     
+	  13 Input      8 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 20    
+	   3 Input      7 Bit        Muxes := 4     
+	  17 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   5 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 2     
+	  12 Input      7 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	  24 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 40    
+	   3 Input      6 Bit        Muxes := 16    
+	   4 Input      6 Bit        Muxes := 14    
+	   5 Input      6 Bit        Muxes := 1     
+	 112 Input      6 Bit        Muxes := 1     
+	 112 Input      5 Bit        Muxes := 4     
+	  24 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 57    
+	  12 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 15    
+	  25 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+	  31 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	 112 Input      4 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 56    
+	   3 Input      3 Bit        Muxes := 9     
+	   4 Input      3 Bit        Muxes := 5     
+	  14 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 3     
+	  26 Input      3 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 11    
+	   4 Input      2 Bit        Muxes := 10    
+	   2 Input      2 Bit        Muxes := 33    
+	   5 Input      2 Bit        Muxes := 6     
+	 112 Input      2 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 1     
+	  19 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 3     
+	  13 Input      2 Bit        Muxes := 2     
+	  12 Input      2 Bit        Muxes := 1     
+	  11 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 131   
+	   3 Input      1 Bit        Muxes := 28    
+	   4 Input      1 Bit        Muxes := 28    
+	 112 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 21    
+	   6 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 10    
+	  13 Input      1 Bit        Muxes := 16    
+	  23 Input      1 Bit        Muxes := 16    
+	  12 Input      1 Bit        Muxes := 13    
+	  14 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ClkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module control_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 19    
+	   3 Input      7 Bit        Muxes := 4     
+	  17 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   5 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 2     
+	  12 Input      7 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 32    
+	   3 Input      6 Bit        Muxes := 16    
+	   4 Input      6 Bit        Muxes := 14    
+	   5 Input      6 Bit        Muxes := 1     
+	 112 Input      6 Bit        Muxes := 1     
+	 112 Input      5 Bit        Muxes := 4     
+	  12 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 53    
+	   3 Input      4 Bit        Muxes := 13    
+	  25 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+	  31 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	 112 Input      4 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 54    
+	   3 Input      3 Bit        Muxes := 9     
+	   4 Input      3 Bit        Muxes := 5     
+	  14 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 3     
+	   6 Input      3 Bit        Muxes := 1     
+	  26 Input      3 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 8     
+	   4 Input      2 Bit        Muxes := 8     
+	   2 Input      2 Bit        Muxes := 27    
+	   5 Input      2 Bit        Muxes := 5     
+	 112 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 47    
+	   3 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 5     
+	 112 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 2     
+Module control_mem 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 50    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 2     
+	  10 Input     16 Bit        Muxes := 2     
+	   8 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 92    
+	   7 Input      8 Bit        Muxes := 29    
+	  12 Input      8 Bit        Muxes := 14    
+	  30 Input      8 Bit        Muxes := 2     
+	  23 Input      8 Bit        Muxes := 2     
+	   9 Input      8 Bit        Muxes := 4     
+	   8 Input      8 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	  24 Input      8 Bit        Muxes := 1     
+	  24 Input      7 Bit        Muxes := 1     
+	  24 Input      5 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 21    
+	   2 Input      1 Bit        Muxes := 31    
+	   3 Input      1 Bit        Muxes := 17    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 8     
+	  23 Input      1 Bit        Muxes := 16    
+	  12 Input      1 Bit        Muxes := 8     
+Module alumux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 11    
+	   4 Input      8 Bit        Muxes := 1     
+	  19 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	  19 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 2     
+Module alucore 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+Module addsub_cy 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module addsub_ovcy 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module comb_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module dcml_adjust 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module mc8051_siu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	  11 Input     11 Bit        Muxes := 1     
+	  10 Input     11 Bit        Muxes := 1     
+	   9 Input     11 Bit        Muxes := 1     
+	   4 Input     11 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	  12 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 3     
+	  13 Input      2 Bit        Muxes := 2     
+	  12 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 3     
+	  11 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+	   3 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 14    
+	  13 Input      1 Bit        Muxes := 8     
+	  12 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 9     
+	  11 Input      1 Bit        Muxes := 10    
+	   9 Input      1 Bit        Muxes := 4     
+Module mc8051_tmrctr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 24    
+	   4 Input      8 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 30    
+	   4 Input      1 Bit        Muxes := 6     
+Module LUT_RAM_from_template 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module BRAM4kx8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "ie" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "acc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dph" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pcon" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmod[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tsel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ssel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dpl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "all_trans_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "all_wt_en_o" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "i_alumux/addsub_o" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[5]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[4]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[3]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[2]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[1]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port psw[0]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[7]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ie[5]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[7]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[6]
+WARNING: [Synth 8-3331] design control_fsm has unconnected port ip[5]
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int1_sync_reg[0]' (FDC) to 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /s_t1ff0_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /\s_int0_sync_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /s_t0ff0_reg)
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_int0_h1_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_int1_h1_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int1_sync_reg[1]' (FDC) to 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_reg[0]'
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_t1ff1_reg' (FDCE) to 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_t1ff0_reg'
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_reg[1]' (FDC) to 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_int0_sync_reg[0]'
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_t0ff1_reg' (FDCE) to 'MC8051/gen_mc8051_tmrctr[0].i_mc8051_tmrctr/s_t0ff0_reg'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_int0_h2_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_int1_h2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_int1_h3_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_int0_h3_reg[0]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[0]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[1]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[1]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[2]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[2]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[3]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[3]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[4]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[4]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[5]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[5]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[6]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[6]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]'
+INFO: [Synth 8-3886] merging instance 'MC8051/i_mc8051_control/i_control_mem/s_p3_reg[7]' (FDP) to 'MC8051/i_mc8051_control/i_control_mem/s_p2_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /s_t1ff0_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /\s_int0_sync_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MC8051/\gen_mc8051_tmrctr[0].i_mc8051_tmrctr /s_t0ff0_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:01:42 . Memory (MB): peak = 1125.215 ; gain = 524.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+--------------------+---------------+----------------+
+|Module Name | RTL Object         | Depth x Width | Implemented As | 
++------------+--------------------+---------------+----------------+
+|mc8051_alu  | i_alumux/alu_cmd_o | 32x4          | LUT            | 
++------------+--------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top         | RAM/RAMDATA_reg | 128 x 8(NO_CHANGE)     | W | R |                        |   |   | Port A           | 1      | 0      | 
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:46 ; elapsed = 00:01:49 . Memory (MB): peak = 1125.215 ; gain = 524.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:01:52 . Memory (MB): peak = 1125.215 ; gain = 524.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top         | RAM/RAMDATA_reg | 128 x 8(NO_CHANGE)     | W | R |                        |   |   | Port A           | 1      | 0      | 
++------------+-----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_ff0_reg' (FDC) to 'MC8051/i_mc8051_control/i_control_mem/s_tf1_h1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'MC8051/gen_mc8051_siu[0].i_mc8051_siu/s_ff1_reg' (FDC) to 'MC8051/i_mc8051_control/i_control_mem/s_tf1_h2_reg[0]'
+INFO: [Synth 8-7053] The timing for the instance RAM/RAMDATA_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ROM/Dout_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:01:57 . Memory (MB): peak = 1142.410 ; gain = 541.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.805 ; gain = 545.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.805 ; gain = 545.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.805 ; gain = 545.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.805 ; gain = 545.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.898 ; gain = 546.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.898 ; gain = 546.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |AND2     |     1|
+|2     |BUFG     |     2|
+|3     |CARRY4   |    40|
+|4     |LUT1     |    12|
+|5     |LUT2     |   137|
+|6     |LUT3     |   160|
+|7     |LUT4     |   303|
+|8     |LUT5     |   466|
+|9     |LUT6     |  1383|
+|10    |MUXF7    |   138|
+|11    |MUXF8    |    23|
+|12    |RAMB18E1 |     1|
+|13    |RAMB36E1 |     1|
+|14    |FDCE     |   490|
+|15    |FDPE     |    39|
+|16    |FDRE     |     4|
+|17    |IBUF     |    19|
+|18    |OBUF     |    17|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------+----------------------+------+
+|      |Instance                                   |Module                |Cells |
++------+-------------------------------------------+----------------------+------+
+|1     |top                                        |                      |  3236|
+|2     |  MC8051                                   |mc8051_core           |  3184|
+|3     |    i_mc8051_alu                           |mc8051_alu            |    32|
+|4     |      \gen_divider1.i_comb_divider         |comb_divider          |    11|
+|5     |      \gen_multiplier1.i_comb_mltplr       |comb_mltplr           |    20|
+|6     |      i_alucore                            |alucore               |     1|
+|7     |    \gen_mc8051_siu[0].i_mc8051_siu        |mc8051_siu            |   200|
+|8     |    \gen_mc8051_tmrctr[0].i_mc8051_tmrctr  |mc8051_tmrctr         |   123|
+|9     |    i_mc8051_control                       |mc8051_control        |  2829|
+|10    |      i_control_fsm                        |control_fsm           |   734|
+|11    |      i_control_mem                        |control_mem           |  2087|
+|12    |  RAM                                      |LUT_RAM_from_template |     1|
+|13    |  ROM                                      |BRAM4kx8              |     1|
+|14    |  clk                                      |ClkDivider            |    10|
++------+-------------------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.898 ; gain = 546.039
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:49 ; elapsed = 00:01:58 . Memory (MB): peak = 1146.898 ; gain = 438.160
+Synthesis Optimization Complete : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1146.898 ; gain = 546.039
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1146.898 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 204 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1146.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  AND2 => LUT2: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+159 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:03 ; elapsed = 00:02:13 . Memory (MB): peak = 1146.898 ; gain = 840.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1146.898 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 12 15:22:19 2020...

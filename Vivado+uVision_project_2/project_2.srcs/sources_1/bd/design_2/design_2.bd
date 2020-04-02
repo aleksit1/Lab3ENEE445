@@ -1,0 +1,68 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35ticpg236-1L",
+      "name": "design_2",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2"
+    },
+    "design_tree": {
+      "top_0": ""
+    },
+    "components": {
+      "top_0": {
+        "vlnv": "xilinx.com:module_ref:top:1.0",
+        "xci_name": "design_2_top_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clkin": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "resetin": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "P0in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "P1in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "P0out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "P1out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "RXDin": {
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "TXDout": {
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "clkout": {
+            "direction": "O"
+          }
+        }
+      }
+    }
+  }
+}

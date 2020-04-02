@@ -1,0 +1,6 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/_umd/_2018-09-01/445_F18/_work/0925_Vivado+uVision_project_2/project_2.sim/sim_1/synth/func/xsim/top_top_sch_tb_func_synth.v,1537978539,verilog,,C:/_umd/_2018-09-01/445_F18/_work/0925_Vivado+uVision_project_2/project_2.srcs/sim_1/imports/8051_logic/toptest.v,,BRAM4kx8;LUT_RAM_from_template;alucore;comb_divider;comb_mltplr;control_fsm;control_mem;glbl;mc8051_alu;mc8051_control;mc8051_core;mc8051_siu;mc8051_tmrctr;top;wiz_clkgen,,,../../../../../project_2.srcs/sources_1/imports/8051_code,,,,,
+C:/_umd/_2018-09-01/445_F18/_work/0925_Vivado+uVision_project_2/project_2.srcs/sim_1/imports/8051_logic/toptest.v,1537388264,verilog,,,,top_top_sch_tb,,,../../../../../project_2.srcs/sources_1/imports/8051_code,,,,,

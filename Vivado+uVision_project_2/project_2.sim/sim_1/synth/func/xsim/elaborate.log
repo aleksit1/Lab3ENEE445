@@ -1,0 +1,48 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 6c1db3e343364d959d120b02e9897da1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot top_top_sch_tb_func_synth xil_defaultlib.top_top_sch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=16.0,...
+Compiling module xil_defaultlib.wiz_clkgen
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.mc8051_siu
+Compiling module xil_defaultlib.mc8051_tmrctr
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.comb_divider
+Compiling module xil_defaultlib.comb_mltplr
+Compiling module xil_defaultlib.alucore
+Compiling module xil_defaultlib.mc8051_alu
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.control_fsm
+Compiling module unisims_ver.FDPE_default
+Compiling module xil_defaultlib.control_mem
+Compiling module xil_defaultlib.mc8051_control
+Compiling module xil_defaultlib.mc8051_core
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB18E1(RDADDR_COLLISION_HWCONF...
+Compiling module xil_defaultlib.LUT_RAM_from_template
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB36E1(INIT_00=256'b0100000000...
+Compiling module xil_defaultlib.BRAM4kx8
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_top_sch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_top_sch_tb_func_synth

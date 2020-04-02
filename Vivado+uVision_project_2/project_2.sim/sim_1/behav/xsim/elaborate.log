@@ -1,0 +1,49 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 6c1db3e343364d959d120b02e9897da1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_top_sch_tb_behav xil_defaultlib.top_top_sch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'P0in' is not connected on this instance [C:/Users/abhinav8/Downloads/Vivado+uVision_project_2/project_2.srcs/sim_1/imports/8051_logic/toptest.v:19]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.mc8051_p
+Compiling architecture rtl of entity xil_defaultlib.mc8051_siu [mc8051_siu_default]
+Compiling architecture rtl of entity xil_defaultlib.mc8051_tmrctr [mc8051_tmrctr_default]
+Compiling architecture rtl of entity xil_defaultlib.control_fsm [control_fsm_default]
+Compiling architecture rtl of entity xil_defaultlib.control_mem [control_mem_default]
+Compiling architecture struc of entity xil_defaultlib.mc8051_control [mc8051_control_default]
+Compiling architecture rtl of entity xil_defaultlib.comb_mltplr [comb_mltplr_default]
+Compiling architecture rtl of entity xil_defaultlib.comb_divider [comb_divider_default]
+Compiling architecture rtl of entity xil_defaultlib.dcml_adjust [\dcml_adjust(dwidth=8)\]
+Compiling architecture rtl of entity xil_defaultlib.alumux [alumux_default]
+Compiling architecture rtl of entity xil_defaultlib.alucore [alucore_default]
+Compiling architecture rtl of entity xil_defaultlib.addsub_cy [addsub_cy_default]
+Compiling architecture rtl of entity xil_defaultlib.addsub_ovcy [addsub_ovcy_default]
+Compiling architecture struc of entity xil_defaultlib.addsub_core [\addsub_core(dwidth=8)\]
+Compiling architecture struc of entity xil_defaultlib.mc8051_alu [mc8051_alu_default]
+Compiling architecture struc of entity xil_defaultlib.mc8051_core [mc8051_core_default]
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2(INIT=4'b1000)
+Compiling module unisims_ver.AND2
+Compiling module xil_defaultlib.LUT_RAM_from_template
+Compiling module xil_defaultlib.BRAM4kx8
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.IBUFG
+Compiling module unisims_ver.dcm_sp_clock_divide_by_2
+Compiling module unisims_ver.dcm_sp_maximum_period_check(cloc...
+Compiling module unisims_ver.dcm_sp_maximum_period_check(cloc...
+Compiling module unisims_ver.dcm_sp_clock_lost
+Compiling module unisims_ver.DCM_SP(CLKDV_DIVIDE=5.0,CLKIN_PE...
+Compiling module xil_defaultlib.wiz_clkgen
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_top_sch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_top_sch_tb_behav

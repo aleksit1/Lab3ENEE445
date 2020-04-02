@@ -1,0 +1,36 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_p.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_core_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_core_struc.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_cy_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_cy_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_ovcy_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/addsub_ovcy_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/alucore_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/alucore_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/alumux_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/alumux_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/comb_divider_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/comb_divider_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/comb_mltplr_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/comb_mltplr_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/control_fsm_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/control_fsm_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/control_mem_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/control_mem_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/dcml_adjust_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/dcml_adjust_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_alu_struc.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_control_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_control_struc.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_core_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_core_struc.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_siu_rtl.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_.vhd" \
+"../../../../project_2.srcs/sources_1/imports/8051_logic/mc8051_tmrctr_rtl.vhd" \
+
+# Do not sort compile order
+nosort
